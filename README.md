@@ -8,6 +8,7 @@
 
 - [Quick start]
 - [What's included]
+- [Description]
 - [Running]
 - [Creators]
 - [Copyright and license]
@@ -24,6 +25,11 @@ Several quick start options are available:
 viant-eth/
 └── getAddressData.py
 ```
+
+## Description
+	We are listing all block hash and transaction hash of a contract address on ethereum block chain.
+	The code is iterating over all ethereum blocks to find the ones that match the contract address.
+	There are more optimized ways of doing this using filters but due to the time litim the described solution was chosen.
 
 ## Running
 
